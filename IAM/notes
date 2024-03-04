@@ -1,3 +1,9 @@
 -Identity and access management
 -This is a global service
 -Create a group and add users to it
+######Policies
+-user can have multiple policies attached
+    - via group
+    - directly
+    -via another group
+### password policies
