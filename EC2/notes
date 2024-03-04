@@ -1,0 +1,4 @@
+#### Amazon EC2 (Compute engine - Elastic Compute Cloud)
+-EC2 user data script - bootstrap
+-EC2 instance types - t2 micro (free tier)
+--EC2 instance -> access key via SSH - attached to a security group which enables the firewall - user data to configure the http server and html page
