@@ -1,9 +1,25 @@
 -Identity and access management
 -This is a global service
 -Create a group and add users to it
-######Policies
+####Policies
 -user can have multiple policies attached
     - via group
     - directly
     -via another group
-### password policies
+#### password policies
+-same as infy
+-MFA = pwd  + deivce of your own 
+ - Virtual MFA 
+    --Google authenticator
+    --Authy
+ - U2F
+    --Yubico
+ - Hardware key fob - same as above - provided by Gemalto
+ - Hardware Key fob for AWS GovCloud (US) - provided by SurepassID
+####access to AWS
+--AWS Management console
+--AWS Commend Line interface
+--AWS software devlopment kit - via code
+
+###tools
+--AWS cloud shell
