@@ -1,4 +1,28 @@
 #### Amazon EC2 (Compute engine - Elastic Compute Cloud)
 -EC2 user data script - bootstrap
 -EC2 instance types - t2 micro (free tier)
---EC2 instance -> access key via SSH - attached to a security group which enables the firewall - user data to configure the http server and html page
+--EC2 instance -> access key via SSH - 
+attached to a security group which enables the firewall -> 
+user data to configure the http server and html page -> associated to an 8GIG
+EBS volume which gets destroyed on termination
+--Private Ipv4 will not change but the public IP may change
+
+####Instance types
+-General purpose - t, m
+-Compute optimized - C
+-memory optimized - R,x1,z1
+-Storage - OLTP - I, d, h1
+
+###Firewalls
+-Security group - only allow rules
+-Can be attached to multiple instances
+-by default - all inbound traffic is blocked and all outbound traffic is authorised
+
+####Classic ports
+-80 - http
+-22 - ssh, sftp
+-21 - sftp
+-443 - https 
+--3389 - Remote desktop protocol (RDP)
+
+####EC2 instance connect - ssh from the browser
