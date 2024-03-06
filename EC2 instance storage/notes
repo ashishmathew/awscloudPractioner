@@ -11,3 +11,25 @@ Xfr data from one AZ or region to another
 
 
 ####AMI - Amazon machine images
+--all software configuration within an image
+--built in a specific region (copied across region)
+
+###EC2 Image Builder
+--free service - but pay for underlying resources like Ec2
+--Automate creation of AMI for EC2 instances
+
+###EC2 instance store 
+-physical storage - > fast but its ephemeral (caching, buffer, scratch data) - high performance
+
+### network - EFS (Elastic file system)
+--mounted to 100s Ec2 - only with Linux - works with multiple AZs
+-expensive and no capacity planning
+
+###EFS Infrequent Access
+--cost optimized - least frequent accessed
+
+###Amazon FSx 
+--third party file system
+--for windows file server
+--Fsx lustre - linux cluster - high performance computing -- stores data in Amazon S3
+
