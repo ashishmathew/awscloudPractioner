@@ -22,4 +22,16 @@
 --AWS software devlopment kit - via code
 
 ###tools
---AWS cloud shell
+--AWS cloud shell - you can also upload and download files
+
+#### IAM roles - used by AWS services
+--attach a role to an EC2 instance
+
+####IAM security tools
+--IAM credentials report (account level) - password related information
+--IAM access advisor (user level) (Granular user access information)
+
+###AWS budget - Set up a budget
+####Bills - A one stop show to look at all the bills for the resources being used
+
+

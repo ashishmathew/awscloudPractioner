@@ -1,0 +1,13 @@
+####EBS volume (Elastic block store) - network drive (network uSB stick)
+-persist data even after termination
+-mounted to only one instance at a time
+-specific availability zone
+---ec2 to EBS --> 1 to many mapping in a single availability zone
+
+###EBS snapshots
+Xfr data from one AZ or region to another
+--archive : 24 to 72 hours to restore data
+--Recycle bin : retention period - 1 day to 1 year
+
+
+####AMI - Amazon machine images
