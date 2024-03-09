@@ -1,0 +1,8 @@
+###buckets (region level)
+buckets : directories  (globally unique name across all regions all accounts
+)
+objects : files
+Naming convention for buckets - must start with a lower caser letter or number
+no suffix or prefix
+-objects have a key - which is the full path (absolute path)
+ - there are no concepts of keys
