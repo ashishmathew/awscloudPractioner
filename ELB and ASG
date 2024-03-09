@@ -7,12 +7,25 @@ Agile - iterate more quickly (This can be a distractor in the exam)
 ###load balancing
 Provide ssl termination (https) for your websites
 
-###ELB
+###ELB (can be in multiple AZ)
 AWS will provide maintenance, upgrades and high availability 
 AWS and user will have to share configuration management since AWS only provides few config knobs
 
 ###Kinds of load balancer
-- App LB - layer 7 (http, https) - static DNS
-- Network L/B - layer 4 - (ultra high performance, tcp/udp) (Static Ip through Elastic IP)
-- Gateway LB - layer 3 
+- App LB - layer 7 (http, https,grpc) - static DNS
+- Network L/B - layer 4 - (ultra high performance - millions of requsts per second, tcp/udp/tls) (Static Ip through Elastic IP)
+- Gateway LB - layer 3 (protocol - GENEVE - route traffics to firewalls for intrusion detection)
 - Classic LB - retired (2023) - layer 4 and 7 
+
+###ASG - auto scaling Group (savings guaranteed)
+--minimum, desired capacity, maximum capacity
+
+Manual Scaling - update manually
+Dynamic Scaling  -  
+ - Simple/Step Scaling
+  - cloud watch alarms triggered (e.g. CPU > 70%)
+ - Target tracking scaling (e.g. ASG cpu stay at 40%)
+ - Scheduled scaling (usage patterns)
+ - Predicitive scaling
+
+
