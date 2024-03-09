@@ -1,0 +1,18 @@
+###High availablity  - running apps on 2 AZs
+###Scalability vs Elasticity vs Agility
+Scalable - scale in or scale out 
+Elastic - once scaled, - implement automatic scaling
+Agile - iterate more quickly (This can be a distractor in the exam)
+
+###load balancing
+Provide ssl termination (https) for your websites
+
+###ELB
+AWS will provide maintenance, upgrades and high availability 
+AWS and user will have to share configuration management since AWS only provides few config knobs
+
+###Kinds of load balancer
+- App LB - layer 7 (http, https) - static DNS
+- Network L/B - layer 4 - (ultra high performance, tcp/udp) (Static Ip through Elastic IP)
+- Gateway LB - layer 3 
+- Classic LB - retired (2023) - layer 4 and 7 
