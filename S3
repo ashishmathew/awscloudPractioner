@@ -63,6 +63,8 @@ types
  - archive access tier (optional) - 90 - 700+
  - Deep archive access tier (180 - 700+)
 
+Lifecycle rules - you can move the objects between storage classes using this option
+
 
   
 
