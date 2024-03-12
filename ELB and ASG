@@ -24,8 +24,8 @@ Manual Scaling - update manually
 Dynamic Scaling  -  
  - Simple/Step Scaling
   - cloud watch alarms triggered (e.g. CPU > 70%)
- - Target tracking scaling (e.g. ASG cpu stay at 40%)
- - Scheduled scaling (usage patterns)
- - Predicitive scaling
+ Target tracking scaling (e.g. ASG cpu stay at 40%)
+ Scheduled scaling (usage patterns)
+ Predicitive scaling
 
 

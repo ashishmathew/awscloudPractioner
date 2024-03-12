@@ -1,8 +1,34 @@
 ###buckets (region level)
+-infinitely scaling storage
+-Used for integration with other AWS services
 buckets : directories  (globally unique name across all regions all accounts
 )
 objects : files
 Naming convention for buckets - must start with a lower caser letter or number
 no suffix or prefix
 -objects have a key - which is the full path (absolute path)
- - there are no concepts of keys
+ - there are no concepts of directories    
+
+- max object size is 5TB (5000 GB)
+- if > 5GB , use 'multi part upload' 
+- it will have metada, tags and version id
+
+--public url vs presigned url (user key encoded)
+
+- #### Security
+-user based - through IAM policies
+- Resource based - 
+ - Bucket policies -bucketwide rules for cross account  
+ - Object access control list (ACL) - can be disabled (fine grain)
+ - Bucket access control list (less)
+- we can encrypt objects as well
+- by default public access is blocked for all buckets 
+
+-S3 Static website hosting (format - bucket- region - website name)
+-S3 versioning (enabled at the bucket level)
+-S3 replication (replication only works with versioning*** i..e if versioning is enabled) - You can aslo replicate previous objects through batch operations
+ - CRR - Cross region replication
+-  SRR - Same region replication
+
+### S3 Storage classes
+
