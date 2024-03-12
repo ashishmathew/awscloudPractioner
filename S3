@@ -31,4 +31,18 @@ no suffix or prefix
 -  SRR - Same region replication
 
 ### S3 Storage classes
+Durability - i.e how many objects can get lost (11 9s)
+Availabiity - i.e. 99.99% (53 minutes downtime)
+
+- Standard General purpose
+ - 99.99% availability, low latency, high throughput, sustain 2 concurrent facility failures
+ - big data analytics, mobile and gaming applications
+
+- InFrequent access
+ - 99.9% avaialable, rapid access when needed though, lower cost than S3 standard
+  S3 Standard IA- back up and DR 
+  S3 One Zone Infrequent access - 99.5% available in a single AZ, lost when AZ is destroyed
+   -store on premise data or data that needs to be recreated  
+  
+
 
