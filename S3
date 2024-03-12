@@ -34,15 +34,36 @@ no suffix or prefix
 Durability - i.e how many objects can get lost (11 9s)
 Availabiity - i.e. 99.99% (53 minutes downtime)
 
-- Standard General purpose
+-------- Standard General purpose
  - 99.99% availability, low latency, high throughput, sustain 2 concurrent facility failures
  - big data analytics, mobile and gaming applications
 
-- InFrequent access
+-------- InFrequent access
  - 99.9% avaialable, rapid access when needed though, lower cost than S3 standard
-  S3 Standard IA- back up and DR 
-  S3 One Zone Infrequent access - 99.5% available in a single AZ, lost when AZ is destroyed
+  S3 Standard IA- back up and DR  (30 days)
+  S3 One Zone Infrequent access - 99.5% available in a single AZ, lost when AZ is destroyed (30 days)
    -store on premise data or data that needs to be recreated  
+
+------Glacier storage classes --- 
+-low cost object storage for archive and backup
+- pricing - storage  + retrieval
+
+-Instant retrieval - milliseconds,(e.g. data accesses once a quarter) min storage - 90 days
+-Flexible retrieval (expedited: 1 - 5 mins, standard: 3-5 hours, Bulk : 5 -12 hours) - min storage - 90 days 
+-Deep archive - Standard(12 hours), bulk (48 hours) - 180 days
+
+---------S3 Intelligent tiering
+- small monthly fee
+-moves objects between tiers based on usage
+- no retrieval charges
+types
+ - frequent access tier - auto - default
+ - Infrequent access tier - auto -  ( 30 days)
+ - Archive instant access tier -  - auto - (90 days)
+ - archive access tier (optional) - 90 - 700+
+ - Deep archive access tier (180 - 700+)
+
+
   
 
 
