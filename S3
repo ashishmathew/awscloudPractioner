@@ -65,6 +65,14 @@ types
 
 Lifecycle rules - you can move the objects between storage classes using this option
 
+S3 encryption - 
+Server side encryption - default on 
+Client side encryption - user encrypts the object and then uploads it into S3
+
+IAM Access analyzer - monitoring and find who is accessing the S3 bucket
+
+
+
 
   
 

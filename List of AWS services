@@ -1,0 +1,8 @@
+#####
+Mention everything from 1st 6 lessons
+#####
+ELB - Elastic load balancer
+ASG - Auto Scaling Group
+S3 - Simple Storage Service (for monitoring - use IAM access Analyzer)
+AWS Snow family - (snowcone, snowball edge, snow mobile)
+AWS Storage gateway (hybrid cloud)

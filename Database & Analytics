@@ -1,0 +1,16 @@
+Relational DB
+- RDS (Relational DB Service)
+ - PostGres
+ - MySQL
+ - Maria DB
+ - Microsoft SQL Server
+- Oracle
+- IBM DB2
+- Aurora (AWS proprietary DB)(Managed services) 
+ - PostGres (3x improvment)
+ - MySQL (5x improvement)
+ - grows automatically (10 GB to 128TB)
+ - cost more than RDS(20% more) bit more efficient
+ -not in freee tier
+ -Aurora serverless - (used for Infrequent, unpredicted workloads)
+- Cannot SSH into the servers
