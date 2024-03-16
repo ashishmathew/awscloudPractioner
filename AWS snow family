@@ -1,0 +1,40 @@
+Portable devices to collect and process data at the edge and migrate it in and out of the cloud
+Data Migration : 
+-Snowcone (small 4.5 pounds, 2.1Kg)
+  - used for edge computing
+  - 8TB
+  - Snowcone SSD
+   - 14TB
+  - own battery/cables
+  -sent to AWS offline or connect to internet via AWS data sync
+
+-SnowBall Edge (large dc migrations, dc decommision, DR) - used for edge computing
+ - TB or PB in and out of AWS
+ - Storage optimized
+  - 80 TB
+ - Compute optimized 
+  - 42 TB or 28TB
+
+---above both can run ec2 and aws lambda functions (using AW IOT greengrass)
+--long term deployment options - `1 to 3 years
+
+-SnowMobile
+ - truck
+ - 1EB = 1000  PB = 1, 000, 000 TBs.
+ - 1 truck = 100 PB
+
+Edge computing: 
+- Snowcone
+- Snowball Edge
+
+---OPSHUB(cli or UI) need to be installed in the servers to transfer data to snow family
+---data loaded to s3
+
+--Snowball edge pricing
+ - not to pay for data into aws
+ - 10 days usage for storage optimized - 80TB
+ - 15 days usage for storage optimized - 120 TB
+ - if you commit upfront montly, 1 yr to 3 yr(edge computing) - 62% discount
+
+ AWS storage gateway
+ - allows you to bridge between on premise data and cloud data in s3 (Hybrid setting)
