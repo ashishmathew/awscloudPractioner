@@ -6,3 +6,45 @@ ASG - Auto Scaling Group
 S3 - Simple Storage Service (for monitoring - use IAM access Analyzer)
 AWS Snow family - (snowcone, snowball edge, snow mobile)
 AWS Storage gateway (hybrid cloud)
+
+###Database
+---SQL
+RDS
+Aurora
+Redshift(OLAP)
+
+--No SQL
+Dynamo DB
+-Document DB
+
+--In Memory
+Elasticache
+Dynamo DB accelerator
+
+Graph - 
+ Amazon Neptune
+
+
+EMR  Elastic Map Reduce(Hadoop)
+Serverless
+Athena - query S3
+
+Dasboard: 
+QuickSight
+
+Amazon timeseries
+AWS Glue (Informatica)
+QLDB (Blockchain framework but central - cryptoGraphically verifiable)
+Amazon Managed Blockchain(central - etherium and Hyperledger)
+DMS (Database Migration Service)
+
+Other Compute services:
+ECS - elastic container service
+Fargate
+ECR - elastic container registry
+Batch
+Lambda
+API Gateway
+Lightsail
+
+
