@@ -1,0 +1,22 @@
+ECS - Elastic container service (launch docker containers )(need to provision EC2 instances)
+Fargate - launch docker containers, no need to provision service, serverless 
+ECR - elastic container registry (store docker images) - used by ES and Fargate to launch containers
+AWS Lambda - Virtual functions - Serverless  - Pay per request and compute time 
+ - its event driven
+ - Lambda Container Image
+ - Lambda Runtime API
+ - its cheap and pricing is based on calls and duration
+ - first 1 millions invications are free
+
+ API Gateway - 
+ Serverless, supports RESt and websocket 
+ expose lambda functions as HTTP API
+
+ AWS Batch 
+  - dynamically launsh EC2 or SPOT instances
+  -defined as Docker images and run on ECS
+
+LightSail
+ -no cloud experience
+ - deploy websites
+ - get started quickly
