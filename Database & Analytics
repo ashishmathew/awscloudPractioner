@@ -1,4 +1,4 @@
-Relational DB
+(Relational DB)
 - RDS (Relational DB Service)
  - PostGres
  - MySQL
@@ -14,3 +14,82 @@ Relational DB
  -not in freee tier
  -Aurora serverless - (used for Infrequent, unpredicted workloads)
 - Cannot SSH into the servers
+
+ - Redshift(based on postgres)
+  - OLAP (for warehouses and Analytical processing)
+  -Columnar
+  - MPP(Massively Parellel Query execution)
+  -BI tools - > AWS Quicksight or Tableau
+  -Redshift Serverless (pay what you use)
+   - cost efficient
+
+
+##Replication
+- Read Replicas(Multi AZ)
+- Read Replicas (Multi Region) (writes happen to a single DB but you can read from any other replica)
+
+(In-Memory Database)
+##Elasticache
+ - create managed Redis or Memcached
+
+
+(No SQL Database)
+-- Dynamo DB (Fully Managed)
+  - Replication across 3 AZ
+  - serverless
+  - low latency 
+  - millisecond latency
+  - low cost
+  - Standard and Infrequent Access 
+  --Key value DB
+  --Caching with Dynamo DB
+   - Use DAX
+    - Dynamo DB accelerator
+    -microsecond access read
+  -Dynamo DB global tables
+   -- active active (2 way replication)
+-- Document DB (based on Mongo)
+
+
+
+
+--EMR (Elastic MapReduce )
+ - create hadoop clusters for big data
+ - clusters come together to process big data
+ - auto scaled with spot instances
+ - machine learning, web indexing, big data
+
+ -- Amazon Athena
+  -- used to query S3 (load data into S3)
+  -- for analytics
+
+Dashboard
+ - Amazon Quick Sight
+ - analytics, machine learning
+ - can run on top of any DB
+
+ Graph - 
+ Amazon Neptune
+  - social network
+
+Timseries Data
+ - Amazon Timestream
+
+ QLDB (Quantum Ledger)
+  - financial transactions
+  - history of all changes made to the application over time
+  - Immutable
+  - no decentralization
+
+Amazon Managed Blockchain
+ - decentralization
+ - Hyperledger
+  - etherium
+
+AWS Glue (similar to Informatica)
+ - ETL
+ - Glue data catalog (not needed for exam) - used by Athena, EMR, Redshift
+
+DMS - DB migration service 
+
+

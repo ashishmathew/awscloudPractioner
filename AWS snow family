@@ -14,7 +14,6 @@ Data Migration :
   - 80 TB
  - Compute optimized 
   - 42 TB or 28TB
-
 ---above both can run ec2 and aws lambda functions (using AW IOT greengrass)
 --long term deployment options - `1 to 3 years
 
