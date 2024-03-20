@@ -1,0 +1,42 @@
+Global Route 53
+ - DNS (Managed)
+ - Routing policies
+  - Simple routing policy (no health check)
+  - weighted routing policy (load balancing) (health check)
+  - latency routing policy (health check)
+  - failover routing policy (health check)
+
+Global CDN - CloudFront
+ - improves read performance, content cached at edge
+ - 216 Points of presence
+ - origins
+  - S3
+   - cloudfront feeds data into S3
+   -enhanced security with cloudfront origin access control (OAC)
+  - custom origin
+    - can sit in front of app LB, Ec2, S3 website which is static, any HTTP backend
+
+Cloudfront vs Cross region replication
+ - CF - > great for static content , uses caching
+ - CRR - > dynamic content with low latency in few regions
+
+S3 Transfer accelerator
+  - we can upload file from usa to australia by uploading the file in edge location and 
+  then it uses AWS private n/w to upload data inot the S3 bucket in australia
+
+AWS Global accelerator
+ - Levergaes the aws global network to optimize route to your application
+ - 2 static anycast IP are created for your application
+
+AWS Outposts
+ - set up outposts racks on-premise , so that we can leverage AWS services on-premise
+ - responsible for physical security
+ 
+AWS Wavelength
+ - 5G 
+ - bring aws services to the edge of 5g networks
+ - no additional charges
+
+ AWS Local zones 
+  - extension of an aws region to a local zone
+
