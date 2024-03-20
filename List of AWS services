@@ -47,4 +47,29 @@ Lambda
 API Gateway
 Lightsail
 
+Deployment services 
+Cloudformation
+ElasticBeanstalk
+CodeDeploy (hybrid)
+CDK
+SSM (System Manager) (run command across fleet of servers)
+SSM Session Manager (no ssh needed)
+SSM param store 
+
+Developer services
+CodeCommit
+CodeBuild
+CodePipeline
+CodeArtifact
+Cloud9
+Codestar
+
+Route 53
+AWS cloudfront
+S3 transfer accelerator
+AWS global accelerator
+AWS outposts
+AWS Wavelength
+AWS local zones
+
 
