@@ -1,0 +1,21 @@
+SQS(Simple Queue Service)
+ - over 10 yrs old
+ -serverless
+ -decouple applications
+ -retention 4 days - 14 days
+ - no limit on the messages on the queue
+
+SQS FIFO Queue
+ - messages will be in order with both producer and consumer
+
+SNS
+ - one message to many receivers
+ - exam keyword - notification
+
+Amazon MQ
+ - while moving from on prem to aws - rabbit mq, active mq
+ - has both queue feature sqs , sns
+ 
+
+Kinesis
+ - real time big data streaming
