@@ -5,7 +5,7 @@ CloudFormation
  - stacks 
 
 CDK
- - use cdk for depoy applications and infrastructure via code
+ - use cdk for depoy applications and infrastructure via code.
 
 AWS Beanstalk -------------------> uses cloudformation behind the scenes
  - developer centric view
