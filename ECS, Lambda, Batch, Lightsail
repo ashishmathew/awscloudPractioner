@@ -9,11 +9,11 @@ AWS Lambda - Virtual functions - Serverless  - Pay per request and compute time
  - first 1 millions invications are free
 
  API Gateway - 
- Serverless, supports RESt and websocket 
+ Serverless, supports REST and websocket 
  expose lambda functions as HTTP API
 
  AWS Batch 
-  - dynamically launsh EC2 or SPOT instances
+  - dynamically launch EC2 or SPOT instances
   -defined as Docker images and run on ECS
 
 LightSail

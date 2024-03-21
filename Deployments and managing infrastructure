@@ -1,0 +1,59 @@
+CloudFormation
+ - takes a template and creates a suite of AWS services (IaC)
+ - Cost can estimated through tags
+ - generates Diagrams/templates
+ - stacks 
+
+CDK
+ - use cdk for depoy applications and infrastructure via code
+
+AWS Beanstalk -------------------> uses cloudformation behind the scenes
+ - developer centric view
+ -Platform as a service (PaaS) - free but pay for underlying services
+ - only responsibilty for the developer or user is application code
+ - health monitoring -checks for app health - pushes logs to cloudwatch
+
+CodeDeploy 
+ - deploys applications automatically
+ - works with Ec2 and on premise servers
+ - Hybrid service
+ - servers should be configured ahead of time with CodeDeploy agent
+
+CodeCommit (aka similar to GitHub)
+ - uses Git repositories
+
+CodeBuild
+ - build package like Maven - compiles code, run tests etc
+ - pay as you go
+
+ Code pipeline (Jenkins)
+  - code - build - test- provison - deploy
+
+CodeArtifact
+ - very similar to Nexus repositories
+ - Developers, Code build can retrieve dependencies from CodeArtifact
+
+ AWS CodeStar (CodeCatalyst)
+ - one stop shop for all the services above  - unified UI
+
+ Cloud 9 
+  - Cloud IDE - used on the web browser
+  - pair programming
+
+ SSM (AWS System Manager)
+ - manage EC2 and On premise systems at scale
+  - Hybrid
+  - operational insights of the infrastructure
+   - features
+    - patching across servers
+    -run commands on all servers
+    - store param config with SSM param store
+
+SSM Session Manager
+ - no need of ssh, no port 22 needs to be opened
+ - user - > IAM permissions - > Session Manager - > EC2 instance
+
+ SSM param store
+  - store secrets, keys, etc. 
+
+
