@@ -1,0 +1,51 @@
+IP4 address
+ - public  (charged)
+ -private
+
+Elastic - stop and start wont affect the instance IP
+IPv6 (free in AWS)
+
+(**Keep the diagrams in mind from the slides)
+VPC and Subnets Primer
+ - linked to a specific region
+- VPC has subnets (public and private, outside world can access the public subnet but not the private, they can communicate via route tables)
+
+
+Internet Gateway and Nat Gateway
+ - Internet GW
+  - public subnet acceses the internet via Internet GW
+ 
+ - Nat Gateway
+  - somtimes private subnet need access to the intenet while remaining private
+  - so nat geteway in place in public subnet and private subnet access nat gateway which in turn accesses the internet
+
+  route tables - > 
+   - it will have the routes for local path and paths to the internet
+
+
+Network ACL and Security Groups 
+ -NACL 
+  - they are on the subnet level 
+  - they allow and deny access
+  - rules include only IP address
+  - stateless - return traffic must be explicitly allowed by rules
+
+- Security groups (at the Ec2 instance level)
+ - they only allow access for IP and other security groups
+ - stateful -  return traffic is automatically allowed regardless of rules
+
+ VPC Flow Logs
+  - Captures information about IP traffic through the interfaces
+   - VPC
+   - Subnet
+   - Elastic Network Interface
+  - Captures n/w information from AWS managed interfaces too - ELB, Elasticache, RDS etc. 
+  - logs can go s3, cloudwatch logs and Kinesis data fireshose
+ 
+ VPC Peering
+  - connect two vpc using aws network
+  - must not have overlapping CIDR (IP address range)
+  - connection is not transitive
+
+VPC Endpoints
+ -   
