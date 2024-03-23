@@ -48,4 +48,15 @@ Network ACL and Security Groups
   - connection is not transitive
 
 VPC Endpoints
- -   
+ - connect to services using a private n/w
+ - vpc endpoint type : gateway  : S3 & dynamo DB
+- vpc endpoint type : interface : the rest
+
+PrivateLink 
+ - if a 3rd party within aws wants to access your app within aws
+  - requires a n/w load balancer(service VPC) and elastic n/w interface(ENI) (Customer VPC)
+  - then create a private link between the above two
+
+Hybrid cloud 
+ - Site to Site VPN
+ - Direct Connect

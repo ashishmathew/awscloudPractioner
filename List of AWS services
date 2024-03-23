@@ -72,4 +72,34 @@ AWS outposts
 AWS Wavelength
 AWS local zones
 
+SQS
+SNS
+Kinesis 
+Amazon MQ
+
+Amazon Cloudwatch metrics
+Amazon cloudwatch alarms
+Amazon cloudwatch logs
+Amazon cloudwatch eventbridge
+
+Amazon Cloudtrail
+Xray  - analysis of microservices applications
+CodeGuru  - code reviewer
+
+AWS account health dashboard - any outages impacting you ? 
+
+VPC
+Subnet
+Internet Gateway
+Nat Gateway
+Security Group
+NACL (n/w access control list)
+VPC flow logs
+VPC peering
+VPC endpoints (Interface, Gateway)
+PrivateLink (n/w load balancer, Elastic network interface)
+Site to Site VPN
+Direct Connect
+Client VPN
+Transit Gateway
 
