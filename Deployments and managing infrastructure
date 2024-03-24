@@ -1,11 +1,11 @@
 CloudFormation
  - takes a template and creates a suite of AWS services (IaC)
  - Cost can estimated through tags
- - generates Diagrams/templates
+ - generates Diagrams
  - stacks 
 
 CDK
- - use cdk for depoy applications and infrastructure via code.
+ - use cdk for depoy applications and infrastructure via code
 
 AWS Beanstalk -------------------> uses cloudformation behind the scenes
  - developer centric view
@@ -54,6 +54,6 @@ SSM Session Manager
  - user - > IAM permissions - > Session Manager - > EC2 instance
 
  SSM param store
-  - store secrets, keys, etc. 
+  - store secrets keysdaksfj
 
 

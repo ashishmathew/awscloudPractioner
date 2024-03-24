@@ -1,0 +1,56 @@
+AWS Cloudwatch metrics
+ - provides metrics for every service
+ - provides dashboard
+ - metrics provided on 
+  - ec2
+  - ebs
+  - S3 Buckets
+  - Billing (This is available only in us-east-1)
+  - Service metrics
+  - Custom metrics
+
+AWS Cloudwatch alarms
+ - trigger notifications(e.g. billing alarm)
+
+ AWS Cloudwatch logs - can be collection from : 
+  - Elastics beanstalk
+  - ecs
+  - aws lambda
+  -Cloudtrail
+  -ec2 (through cloudwatch log agent) - hybrid
+  -route 53 
+  -enables real times monitoring
+
+
+  AWS EventBridge (formerly cloudwatch events)
+   - create events 
+   - Integrate with systems outside AWS
+   - replay events
+
+AWS CloudTrail 
+ - enabled by default
+ - governance, compliance and audit 
+ - history of events/APi calls
+- any service will logged in cloudtrail
+ - all regions
+
+ AWS Xray (like Splunk)
+  - Visual analysis of your microservice applications
+  - throtlling
+
+CodeGuru (like SONAR)
+    - Automated code reviews
+    - ML- powered service
+    Profiler (like Grafana)
+     - run time behaviour
+     - hybrid
+
+AWS health dashboard 
+ - Service History 
+    - all regions and all services health
+    -general information
+ - Account health dashboard
+    - your own account
+    - provides alerts and remediation that may imapct you
+    - proactive notifications 
+    - how aws outages can imapct you
