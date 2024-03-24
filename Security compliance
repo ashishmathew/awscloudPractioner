@@ -67,8 +67,61 @@ AWS certificate manager (ACM)
 
  AWS secrets manager
   - stores secrets
-  - forces rotation of secrets
-  - Integration with Amazon RDS
+  - forces rotation of secrets****
+  - Integration with Amazon RDS****
   - secrets using KMS
+
+  AWS Artifact  (not really a service)
+   - portal - with AWS compliance documents for customers
+   - provides artifact reports
+   - provides artifact agreements (BAA or HIPAA)
+   -used to support internal audit or compliance
+
+Amazon Guard Duty 
+ - uses machine learning to protect AWS account by performing intelligent threat discovery
+ - protect againt CryptoCurrency attacks*****
+
+ Amazon inspector
+  - automated security assessments
+   - only for EC2, containter images, Lambda functions
+   - a risk will be run
+
+AWS config 
+  - records configurations
+  - stored in S3
+  - per region service
+
+Macie 
+ - machine learning and pattern matching to protect sensitive data (PII) ****
+
+AWS Security Hub 
+ - central security tool to manage several AWS accounts and automate security checks
+ - aggregates alerts from all above aws services
+ - use amazon detective to find the source of the issue
+ - must enable AWS config service
+
+amazon detective 
+ - find root cause (using Ml and graphs)
+ 
+AWS abuse
+ - report to AWS 
+   -spam 
+   - port scanning
+   - ddos attack
+
+Root user privileges
+ - has complete access to all aws services and resources
+  - change account settings
+  - close your aws account
+  - register as a seller
+  -sign up govcloud
+  - change or cancel aws support plan***
+
+IAM access analyzer 
+ - find out which resources are shared externally
+ - set up zone of trust, anything outside - will be flagged as findings
+
+
+
 
 
