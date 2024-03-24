@@ -1,0 +1,74 @@
+shared responsiblity 
+ - patch management, awareness and training
+
+DDOS attack
+
+AWS Shield standard
+  - enabled for all customer (no additonal cost)
+   - free service
+
+AWS Shield advanced
+ - 24/7 premium DDOS protection
+ -optional service
+ - response team
+ -higher level of defence
+
+AWS WAF 
+ - filter specific requests
+ - Layer 7
+ - deploy on ALB, API gateway, cloudfront
+ - Web ACL
+  - based on IP address, HTTP headers
+  - rate limiting
+  - protect from SQL injection , XSS
+  -Size constraint
+  -geo match
+  
+Cloudfront and DNS
+ - combined with shield, provides attack mitigation on the edge
+
+ - leverage Auto Scaling
+
+ AWS Network firewall 
+ - protection of entire VPC from layer 3 to layer 7
+  - operates at VPC level
+
+AWS Firewall Manager 
+ - Managing VPC security groups of multiple accounts - > In a organization
+
+ Penetration testing 
+  - you dont need authorization for 8 services to perform pen testing
+  - no ddos attack, no port flooding
+
+encryption 
+ - at rest
+ - at transit
+
+AWS KMS 
+ - AWS manages key for us
+ - automatically enabled
+  - cloud trail
+  - storage gateway
+  - S3 Glacier
+
+Cloud HSM (hardware security module)
+ - AWS provisions security hardware
+ - customer will manage the key
+
+ Types of KMS keys
+  - Customer Managed Key 
+  - AWS managed key
+  - aws owned key
+  - cloudhsm keys
+
+AWS certificate manager (ACM)
+ - used to provide in flight encryption for websites
+ - provision, manage, deploy, SSL/TLS certificates
+
+ AWS secrets manager
+  - stores secrets
+  - forces rotation of secrets
+  - Integration with Amazon RDS
+  - secrets using KMS
+
+
