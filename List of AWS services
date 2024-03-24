@@ -103,3 +103,27 @@ Direct Connect
 Client VPN
 Transit Gateway
 
+Security
+-----------
+AWS Sheild standard
+AWS Sheild premium
+WAF 
+AWS network firewall
+AWS firewall manager (vpc's of multiple accounts in an organization)
+
+AWS KMS
+AWS cloudHSM
+AWS certificate Manager
+AWS secrets manager(forces rotation of secrests, integration with RDS)
+AWS artifact
+
+Amazon Guard Duty (threat discovery, crypto attacks, malicious behaviour in vpc, cloud trail logs)
+Amazon inspector (automated asssessments, ec2, container images, Lambda functions, software vulnerabilities)
+AWS Config
+Macie (ML for PII data) in s3 buckets
+AWS security hub (one stop shop for all above service)
+Amazon detective (root cause)
+amazon abuse
+Root user privileges
+IAM access analyzer(resources shared externally)
+
