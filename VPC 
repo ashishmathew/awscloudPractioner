@@ -58,5 +58,16 @@ PrivateLink
   - then create a private link between the above two
 
 Hybrid cloud 
- - Site to Site VPN
- - Direct Connect
+ - Site to Site VPN (public) 
+  - connects on prem to aws cloud over the internet
+  - on prem - customer gateway (CGW)
+  - aws : Virtual private gateway(VGW)
+
+ - Direct Connect (private) - physically connects on prem to aws cloud
+
+
+ AWS client VPN (same like Lumen n/w)
+
+ Transit gateway : (hub and spoke)
+  - transitive peering between thousands of vpc and on prem 
+  
