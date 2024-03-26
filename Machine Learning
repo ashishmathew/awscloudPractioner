@@ -30,8 +30,9 @@ Amazon comprehend
  - find insights in text
 
  Amazon Sagemaker
-  - used for building machine learning models
+  - used for building machine learning models for developer and data scientist
   - full managed service
+
 
 Amazon forecast
  - uses ML to deliver highly accurate forecasts
