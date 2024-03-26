@@ -1,0 +1,58 @@
+Amazon Rekognition
+ - labeling
+ - text detection
+ - Face recogniton
+
+Amazon Transcribe (subtitles - netflix)
+ - speech to text 
+ - ASR (Automatic speech recognition)
+ - automatically remove PII using redaction
+ - multilingual
+ 
+Polly
+ - opposite of transcribe (text to speech)
+
+Amazon Translate
+ - language translation
+ 
+amazon Lex  (same tech as Alexa)
+ - ASR (Automatic speech recognition)
+ - Helps build chatbots
+
+Amazon connect
+ - virtual contact center
+ - receive calls, create contact flows
+ - can integrate with CRM systems or AWS
+ - no upfront payment
+
+Amazon comprehend
+ - NLP**
+ - find insights in text
+
+ Amazon Sagemaker
+  - used for building machine learning models
+  - full managed service
+
+Amazon forecast
+ - uses ML to deliver highly accurate forecasts
+
+Amazon Kendra
+ - document search service 
+ - extract answers from a document
+ - Incremental learning
+
+Amazon Personalize
+- build apps with real-time personalized recommendations
+
+Amazon Textract
+ - extract text from any scanned docs using AI and ML
+
+
+
+
+
+
+
+
+
+

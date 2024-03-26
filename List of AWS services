@@ -127,3 +127,15 @@ amazon abuse
 Root user privileges
 IAM access analyzer(resources shared externally)
 
+Machine learning
+- Amazon rekogniton
+- Amazon transcribe
+- Amazon Polly
+- Translate
+- Lex (ASR - automatic speech recongnition) + Connect
+- Comprehend
+- Sagemaker
+- Forecast
+- Kendra (document search service)
+- personalize
+- Textract 
