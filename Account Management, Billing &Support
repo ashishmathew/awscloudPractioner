@@ -1,0 +1,68 @@
+AWS organizations (global service)
+ - multple aws accounts
+ - all account paid by one master account
+ - aggregated usage
+ - pooling of reserved ec2 instances for optimal savings
+ - api available to automate aws account creation
+ - restrict account privileges using Service control policies (SCP)
+
+multi account strategies 
+ - create account per department, per cost center etc. 
+ - use tags for billing
+
+Org units   (examples)       sales account 1
+                           / sales account 2
+                      Sales
+                     /
+                    / 
+ - master account -   
+                    \
+                     \
+                       retail
+                             \
+                               retail account 1
+                               retail account 2                         
+                      
+Service control policies
+ - doesnt apply to the master account and service linked roles
+ - applied at the Org unit or the account level
+ - SCP is applied to the user and roles of the account including root
+ - SCP needs to have an explicit allow
+ - scope is opposite to global and local variables scope in programming languages
+
+AWS organization - consolidated billing
+ - combined usage - discount pricing
+ - one bill
+ - reserved instance account sharing can be turned off by management account
+
+ AWS control tower 
+  - easy way to set up and govern a secure and compliant multi account aws environment
+  - automate set up of environments in few clicks
+  - -automatically sets up aws organizations to organize accounts and implement SCP
+
+AWS resource access manager (RAM)
+ - share aws resources that you own with other AWS accounts
+ - it avoids resources duplications
+
+AWS Service Catalog
+ - self service portal to launch products
+
+Pricing models of the cloud 
+ - 4 
+  - pay as you go 
+  - Save when you reserve
+  - Pay less by using more 
+  - pay less as AWS grows
+
+  Free - 
+  - IAM
+  - VPC
+  - Consolidated billing 
+  - Cloudformation (pay for resources created)
+  - Auto scaling (pay for resources created)
+  - Elastic beanstalk (pay for resources created)
+
+  Compute pricing - 
+   - Fargate
+    - pay for vCPU and memory resources 
+
