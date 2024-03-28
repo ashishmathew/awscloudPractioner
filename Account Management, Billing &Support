@@ -65,4 +65,55 @@ Pricing models of the cloud
   Compute pricing - 
    - Fargate
     - pay for vCPU and memory resources 
+   
+   EBS
+    - this is not pay per use
+    - its based on how much storage is provisioned
+
+  RDS 
+  - per hour billing
+  - reserve for 1 or 3 years
+  - back up is free
+
+  n/w
+   - use private IP instead or public IP
+   - use same AZ for maximum savings (at the cost of high availability)
+
+- Savings plan
+  - Ec2 
+   - 72%
+   - Commit to usage of individual families in a region
+  - Compute
+   - 66%
+  - Savings plan can be setup using AWS Cost Explorer console
+   - Machine learning savings plan - Sagemaker
+
+- Compute optimizer
+ - reduce cost and improve performance by recommending AWS sources
+ - uses Machine learning and their utilization of cloudwatch metrics
+
+Billing and costing tools
+ - AWS pricing calculator
+  - estimate the cost of solution architecture
+ - AWS Billing dashboard
+  - gives an overall cost breakdown
+ - Cost allocation tags
+  - used to track aws cost on a detailed level 
+  -aws generated tags - prefix : aws 
+  -user-defined tags  - prefix : user
+ -Tags can used to create user groups
+
+Cost and usage reports : 
+ - most comprehensive set of aws cost and usage data available
+
+Cost explorer 
+ - Visualize and manage AWS cost over time
+ - data at high level
+ - optimize savings plan
+ - Forecast usage upto 12 months ahead***
+
+
+
+
+  
 
