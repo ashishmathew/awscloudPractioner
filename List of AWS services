@@ -139,3 +139,26 @@ Machine learning
 - Kendra (document search service)
 - personalize
 - Textract 
+
+Account Management
+ - AWS organizations  -  (create multi accounts)
+ - AWS control tower - (easily provision aws organization)
+ - AWS RAM-   (resource access manager) (share resources)
+ - AWS service catalog (self service to launch products)
+ - AWS compute optimizer (reduce cost and improve performance, LM)
+
+ Cost 
+  - AWS pricing calculator (estimate cost)
+  - AWS billing dashboard (overall view)
+  - Cost allocation tags (group resources)
+  - cost and usage reports (comprehensive plan of aws cost and usage)
+  - cost explorer (forecast 12 months ahead)
+
+  Billing
+   - Billing alarms (only actual cost and not projected)
+   - AWS Budget (send notifications when threshold is exceeded)
+   - AWS Cost anomaly detection (use machine learning to find unsual usages)
+   - AWS service quotas (monitors quotas all over aws resources)
+   - AWS truster advisor - high level aws account assessment (checklist, 6 checks)
+   - AWS support plan  pricing (basic, dev, business, enterprise on-ramp, enterprise)
+

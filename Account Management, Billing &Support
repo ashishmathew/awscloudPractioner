@@ -112,8 +112,74 @@ Cost explorer
  - optimize savings plan
  - Forecast usage upto 12 months ahead***
 
+Billing alarms 
+ - only stored in one region 
+ - its for overall worlwide aws cost
+ - for actual cost and not for projected cost
+ - not powereful as aws budget
 
+ AWS budget
+  - send alarm when cost or forecast exceeds the budget
 
+AWS Cost anomaly detection 
+ - continuously monitor your cost and usage using ML to detect unusual spends
+ - anomaly detection report with root cause analysis
 
+ AWS service quotas 
+ - monitors all quotas set on aws services and notifies you when you are close to a threshold
+
+ AWS trusted advisor 
+  - high level AWS account assessment 
+  - you get a checklist
+  - recommendation on 6 categories 
+   - Cost optimization
+   - Performance
+   - Security
+   - Fault tolerance
+   - Service limits
+   - Operational excellence
+  - if you ******************opt for Business and enterprise plan 
+   - you will get full set of checks
+  - programmatic access through AWS support API
+
+  AWS support plan pricing 
+   - basic support   - free
+     - 24x7 access to customer service, docs and whitpaper
+     - aws truster advisor
+     - aws personal health dashboard
+  -Developer
+    - business hours email access to cloud suuport associates
+    - unlimited cases / 1 primary contact
+    - < 24 business hours
+    - < 12 business hours
+  - Business Support plan
+    - production workloads
+    - trusted advisor full checks
+    - email and phone, chat  access cloud support engineers
+    - unlimited cases/ unlimited primary contact
+    - access to infra event management for additional fee
+    - General < 24 business hours
+    - System impaired < 12 business hours
+    - prod impaired < 4 hours
+    - prod down < 1 hour
+  - Enterprise On-Ramp Support plan
+    - production or business workloads
+    - Business support plan +
+    - access to a pool of technical account managers***
+    - Conceirge Support team 
+    - Infra event management, well architected & operation reviews
+    - prod impaired < 4 hours
+    - prod down < 1 hour
+    - business critical system down < 30 mins
+  - Enterprise
+   - mission critical workloads
+   - designated technical account manager
+   - Conceirge support plan
+   - Infra event management
+    - prod impaired < 4 hours
+    - prod down < 1 hour
+    - business critical system down < 15 mins
   
 
+Best Practices
+ - 
