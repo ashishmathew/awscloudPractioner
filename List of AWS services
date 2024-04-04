@@ -152,13 +152,17 @@ Account Management
   - AWS billing dashboard (overall view)
   - Cost allocation tags (group resources)
   - cost and usage reports (comprehensive plan of aws cost and usage)
-  - cost explorer (forecast 12 months ahead)
+  - cost explorer (forecast 12 months ahead)(it even gives current usage)
 
   Billing
-   - Billing alarms (only actual cost and not projected)
+   - Billing alarms (only actual cost and not projected)(track overall and per-service billing)
    - AWS Budget (send notifications when threshold is exceeded)
    - AWS Cost anomaly detection (use machine learning to find unsual usages)
    - AWS service quotas (monitors quotas all over aws resources)
    - AWS truster advisor - high level aws account assessment (checklist, 6 checks)
    - AWS support plan  pricing (basic, dev, business, enterprise on-ramp, enterprise)
 
+- AWS STS (Security Token service) - temp privileges
+- Cognito - web and mmobile applications - authentication - external users
+- AWS directory services - (Microsoft like AD)
+- IAM identity center (Successor to single sign on)
