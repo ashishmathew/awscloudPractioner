@@ -1,0 +1,24 @@
+Amazon workspaces 
+    - virtual desktop or Desktop as a service (DAAS) , eliminates mangment of on premise VDI
+    - to lower latency deploy workspaces closer to the users
+Amazon appstream 2.0
+    - stream a desktop application to a web browser
+    - works with any device that has a web browser
+    - configure an instance per the application type
+AWS IOT Core 
+    - connect IOT devices to AWS cloud
+    -Serverless , secure and scalable to millions of services
+AWS AppSync
+    - Make use of graphQL to sync data across mobile and web - apps
+    - Integration with dynamo DB and lambda
+AWS Amplify
+    - set of tools and services to deploy and devlop scalable full stack and web applications
+    - has all (auth, storage, REST, GRAPHQL, source code from AWS, GITHUB etc. )
+    - think of it like elastic bean stalk for full stack applications on web and mobile
+AWS Application Composer
+    - Visually design and build serverless application on aws
+    - Deploy AWS infrastructure code without being an expert
+    - Generates Infra as code
+    
+
+
