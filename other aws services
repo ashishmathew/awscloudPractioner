@@ -27,7 +27,7 @@ AWS device farm
 
 AWS Backup
     - centrally managed service to automate backup across AWS services like S3, ec2 etc. 
-    - supports PITR (PITR)
+    - supports Point in time recovery (PITR)
 
 Disaster recovery strategies
     - Backup and restore (less) cost
@@ -41,8 +41,52 @@ AWS Elastic disaster recovery (DRS)
 
 AWS Data Sync
     - sync data from on premise to AWS
-    - replication tasks are incremental after the first full load
+    - replication tasks are incremental***** after the first full load
+
+AWS application discovery service and application migration service
+    - plan migration by gathering info about on premise services(server utilization, dependency mapping etc)
+    - AWS Agentless discovery Connector
+    - AWS application discovery agent
+    - above results can be viewed in AWS Migration Hub
+
+    - AWS Application Migration Service(MGN)
+     - lift and shift
+     - continuous replication from on-premise to aws 
+
+AWS Migration evaluator
+    - helps with data driven business case for migration to aws
+    - analyze current state, define target state then devlop migration plan
+
+AWS Migration hub
+    - centralized location to collect server data for migration to AWS
+        - AWS migration hub orchestrator 
+            - this has pre built templates to save time
+    - supports updates from Application Migration service(MGN) and Databse migration service (DMS)
+
+AWS fault injection simulator
+    - based on Chaos engineering
+    - run fault injection experiments on aws workloads
+    - monitor the experiments
+    - view results
+
+AWS Step functions
+    - build serverless visual**** workflow for lambda functions
+    - can integrate with EC2, ECS etc
+    - can implement human approval feature
+    - order fullfilment , data processing, any workflow etc. 
+
+AWS ground station 
+    - satellite communications
+    - provides global network of satellite ground stations near aws region
+    - allows to download satellite data to your AWS VPC withing seconds
+    - send it to s3 or ec2
+    - weather forecasting, surface imaging
+
+AWS pinpoint
+    - 
+
 
     
+
 
 
