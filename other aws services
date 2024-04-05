@@ -19,6 +19,30 @@ AWS Application Composer
     - Visually design and build serverless application on aws
     - Deploy AWS infrastructure code without being an expert
     - Generates Infra as code
+
+
+AWS device farm
+    - fully managed service that tests your web and mobile apps against  desktops, mobile , tabs etc 
+    - run tests concurrently on multiple devices
+
+AWS Backup
+    - centrally managed service to automate backup across AWS services like S3, ec2 etc. 
+    - supports PITR (PITR)
+
+Disaster recovery strategies
+    - Backup and restore (less) cost
+    - Pilot light (core functions up and running) (more costly than above)
+    - Warm standby (full functioning app but min size) (more costly than above)
+    - multi-site/hot site (full functioning app with full size) (more costly than above)
+
+AWS Elastic disaster recovery (DRS)
+    - Quickly and easily recover physical,virtual and cloud based servers into AWS
+    - continuous block level replication for your servers
+
+AWS Data Sync
+    - sync data from on premise to AWS
+    - replication tasks are incremental after the first full load
+
     
 
 
