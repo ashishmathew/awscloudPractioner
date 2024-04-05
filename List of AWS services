@@ -166,3 +166,29 @@ Account Management
 - Cognito - web and mmobile applications - authentication - external users
 - AWS directory services - (Microsoft like AD)
 - IAM identity center (Successor to single sign on)
+
+Amazon workspaces 
+Amazon appstream 2.0
+AWS IOT Core 
+AWS AppSync
+AWS Amplify
+AWS Application Composer
+AWS device farm
+AWS Backup
+Disaster recovery strategies
+AWS Elastic disaster recovery (DRS)(Cloudendure disaster recovery service)
+AWS Data Sync
+AWS application discovery service and application migration service
+AWS Migration evaluator
+AWS Migration hub
+AWS fault injection simulator
+AWS Step functions
+AWS ground station 
+AWS pinpoint
+
+
+    
+
+
+
+
