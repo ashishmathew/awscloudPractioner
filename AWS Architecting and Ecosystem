@@ -79,4 +79,51 @@ AWS cloud adoption framework (AWS CAF)
      - Technology
         - modernize legacy infrastructure using cloud
      - Process
-        - 
+        - digitizing everything and bring in automations
+        - use machine learning
+     - organization
+        - organize team across products and value streams
+        - leverage agile methods
+    - product
+        - reimagining by creating new value propositions  and revenue models
+
+    Transformation Phases
+     - envision
+     - Align - 6  AWS CAF perspectives
+     - Launch - in pilot mode
+     - Scale - then according to business needs
+
+
+AWS Right Sizing
+    - choosing machine at the lowest possible cost
+    - when to right size
+        - before a cloud migration
+        - continuously after the cloud onboarding process
+
+AWS Ecosystem
+    - aws blogs, aws forums, aws whitepapers, aws partner solutions, aws solutions(vetted tech solution,e.g. aws landing zone,
+    replaced by aws control tower) ------no cost
+
+    --Support
+    - developer
+    - business
+    - enterprise
+
+AWS Marketplace 
+    - software listings from third party vendors
+
+AWS training
+    - digital or classroom
+    - aws private training
+    - training and certification for the US government
+    - training and certification fot the enterprise
+    - AWS academy
+
+AWS Professional services and Parter Network
+    - global team of experts
+    - APN - AWS partner network 
+        - APN tech partner (help with infra - hardware, connnectivity and software)
+        - APN consulting firm - (help build on AWS)
+        - APN training partners (help learn AWS)
+        - AWS competency program (competency granted to APN partners)
+        - AWS navigate program (help partners become better partners)
