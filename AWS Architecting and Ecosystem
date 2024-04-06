@@ -1,0 +1,82 @@
+AWS Cloud best practices - Design Principles
+    - Scalability
+    - Disposable resources
+    - Automation 
+    - Loose coupling
+    - Services, not servers
+
+Well architected framework 
+-----------------------------
+-operational excellence
+    - perform operation as code - IaC
+    - Annotate documentation
+    - Make frequent, small , reversible changes
+    - refine operation procedures frequently
+    - Anticipate failure
+    - Learn from operation failures
+
+-Security
+    - Implement a strong identity foundation (centralize privilige management, reduce reliance on long term credentials)
+    - enable traceability
+    - Apply security at all layers
+    - Apply security best practices
+    - Protect data in transit and at rest
+    - keep people away from data
+    - prepare for security events
+
+- Reliability
+    - Test recovery procedures
+    - Automatically recover from failures
+    - Scale horizontally to increase aggregate system availability
+    - Stop guessing capacity
+    - Manage change in automation
+
+- Performance efficiency
+ - democratize advanced technologies
+ - go global in minutes
+ - use serverless architecture
+ - experiment more often
+ - Mechnical sympathy 
+
+- Cost optimization
+  - Adopt a conumption mode
+  - Measure overall efficiency
+  - Stop spending money on data center operations
+  - Analyze and attribute expenditure - use tags
+  - Use managed and application level services to reduce cost ownership
+
+- Sustainability
+    - Understand your impact
+    - establish sustainability goals
+    - Maximize utilization
+    - Anticipate and adopt new, more efficient hardware and software offerings
+    - use managed services
+    - Reduce the downstream impact of your cloud workloads
+
+AWS Well architected tool 
+ - review your architecture against the 6 pillars , adopt architectural best practices
+
+AWS cloud adoption framework (AWS CAF) 
+ - Created by AWS per
+ - Six perspectives 
+    - Business Capabilities
+        - Business 
+            - accelerate business
+        - People
+            - serves bridge between technology and business 
+        - Governance
+            - helps orchestrate cloud initiatives
+    - Technical capabilities
+        - platform perpective
+            - helps build enterprise grade, scalable, hybrid cloud platform
+        - Security perspective 
+            - confidentiality and integrity
+        - operational perpective 
+            - cloud services are delivered according to business needs
+
+
+    Transformation domain
+     - Technology
+        - modernize legacy infrastructure using cloud
+     - Process
+        - 
