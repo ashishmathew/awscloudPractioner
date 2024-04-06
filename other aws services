@@ -35,7 +35,7 @@ Disaster recovery strategies
     - Warm standby (full functioning app but min size) (more costly than above)
     - multi-site/hot site (full functioning app with full size) (more costly than above)
 
-AWS Elastic disaster recovery (DRS)
+AWS Elastic disaster recovery (DRS) (Cloudendure disaster recovery service)
     - Quickly and easily recover physical,virtual and cloud based servers into AWS
     - continuous block level replication for your servers
 
@@ -83,7 +83,11 @@ AWS ground station
     - weather forecasting, surface imaging
 
 AWS pinpoint
-    - 
+    - 2 way inbound and outbound marketing communication services
+    - possibility to receive replies
+    - scales to billions of messages per day
+    - e.g. run camapaigns by sending marketing bulk messages
+
 
 
     
