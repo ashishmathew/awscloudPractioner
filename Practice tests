@@ -1,0 +1,18 @@
+Practice test 1 
+    - AWS trusted advisor - real time guidance on fault tolerance, cost optimization, security
+    - before sending data into s3 , you can have encrypt the data using aws sdk and then send it into s3 this is client side encryption. 
+    - network address translation gateway is managed by aws and network  address translation instance is managed by user
+    - need to review support plans - basic, developer, business, enterprise, enterprise on ramp
+    - cloud trail - used for logging and compliance
+    - cloud watch - use of monitoring and performance of resources. 
+    - vpc endpoint gateway type - s3 and dynamo db
+    - vpc endpoint interface type - rest (amazon s3 supports it as well)
+    - aws site to site vpn uses public internet
+    - aws compute optimizer - find optimal resources for cost optimization. It uses machine learning (ec2 , EBS , AWS lambda)
+    - AWS Systems Manager - track operational issues, automate operational tasks
+    - CAF common stake holders - CTO, Tech leaderss, engineers, architects
+    - Code artifact - same as nexus
+    - AWS artifact  - HIPAA, BAA compliance, agreement
+    - Advanced shield - route 53, global accelerator, ec2, elb, cloudfront
+    - encryption - cloudtrail by default along with s3
+    - review services for well architected framework

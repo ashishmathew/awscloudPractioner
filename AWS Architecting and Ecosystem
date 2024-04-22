@@ -116,7 +116,7 @@ AWS training
     - digital or classroom
     - aws private training
     - training and certification for the US government
-    - training and certification fot the enterprise
+    - training and certification for the enterprise
     - AWS academy
 
 AWS Professional services and Parter Network
@@ -127,3 +127,23 @@ AWS Professional services and Parter Network
         - APN training partners (help learn AWS)
         - AWS competency program (competency granted to APN partners)
         - AWS navigate program (help partners become better partners)
+
+AWS IQ
+     - Quickly find professional help with AWS projects
+     - engage and pay AWS third party experts
+     - its a freelance platform within aws 
+
+AWS re:POST
+ - this is a community forum
+ - QnA service
+ - replaces original AWS forums (part of aws free tier)
+ - if you are a premium member, then if you do not get a reponse above, then its routed to AWS support engineers
+ 
+
+ AWS re:POST knowledge center
+    - FAQS
+
+AWS Managed services 
+    - infra and app support
+    - helps organization offload tasks to these team of AWS experts
+    - business hours 24/7 - 365 days 
