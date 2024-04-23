@@ -8,7 +8,7 @@ Practice test 1
     - vpc endpoint gateway type - s3 and dynamo db
     - vpc endpoint interface type - rest (amazon s3 supports it as well)
     - aws site to site vpn uses public internet
-    - aws compute optimizer - find optimal resources for cost optimization. It uses machine learning (ec2 , EBS , AWS lambda)
+    - aws compute optimizer - find optimal resources for cost optimization. It uses machine learning (ec2 , EBS , AWS lambda, ec2 auto scaling groups)
     - AWS Systems Manager - track operational issues, automate operational tasks
     - CAF common stake holders - CTO, Tech leaderss, engineers, architects
     - Code artifact - same as nexus
@@ -16,3 +16,24 @@ Practice test 1
     - Advanced shield - route 53, global accelerator, ec2, elb, cloudfront
     - encryption - cloudtrail by default along with s3
     - review services for well architected framework
+
+
+Practice test 2
+    - OpsWorks - anything to do with Chef and Puppet
+    - WAF - allow and deny on layer 7 - (e.g. gaming content, sql injection etc )
+    - Neptune - Social network
+    - ???Can be used for recommendation with least operational overhead
+    - DynamoDB - key value - used to recommendations with least operational overhead
+    - Guardduty - uses ml to find threats
+    - VPC spans across all availability zones and subnet spans only one AZ
+    - Check out CAF - the diagram and if possible meemorize it. 
+    - ECR - store, manage and deploy Docker container images
+    - ECS - run Docker containers
+    - AWS Storage Gateway - tape, volume and file gateway
+    - EventBridge - used to schedule jobs - serverless
+    - Step functions - create serverless visual workflows
+    - Read differences between multi - az , multi region and read replica deployments (45th question)
+    - Read CAF transormational phases
+    - Elastic beanstalk - upload code and rest is handled by beanstalk - provisioning resources etc. user has access to underlying resources
+
+
