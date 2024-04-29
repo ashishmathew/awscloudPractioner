@@ -1,4 +1,8 @@
 #####
+IAM
+EC2
+EC2 instance storage (saving plan - locked to an instance)
+ec2 image builder - automate creation of virtual machines or container images
 Mention everything from 1st 6 lessons
 #####
 ELB - Elastic load balancer

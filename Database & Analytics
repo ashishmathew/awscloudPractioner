@@ -4,7 +4,7 @@
  - MySQL
  - Maria DB
  - Microsoft SQL Server
-- Oracle
+- Oracle  
 - IBM DB2
 - Aurora (AWS proprietary DB)(Managed services) 
  - PostGres (3x improvment)
@@ -49,8 +49,6 @@
   -Dynamo DB global tables
    -- active active (2 way replication)
 -- Document DB (based on Mongo)
-
-
 
 
 --EMR (Elastic MapReduce )

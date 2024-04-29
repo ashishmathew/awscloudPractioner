@@ -25,7 +25,7 @@ S3 Transfer accelerator
   then it uses AWS private n/w to upload data inot the S3 bucket in australia
 
 AWS Global accelerator
- - Leverges the aws global network to optimize route to your application
+ - Leverges the aws `g`lobal network to optimize route to your application
  - 2 static anycast IP are created for your application
 
 AWS Outposts

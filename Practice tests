@@ -22,7 +22,6 @@ Practice test 2
     - OpsWorks - anything to do with Chef and Puppet
     - WAF - allow and deny on layer 7 - (e.g. gaming content, sql injection etc )
     - Neptune - Social network
-    - ???Can be used for recommendation with least operational overhead
     - DynamoDB - key value - used to recommendations with least operational overhead
     - Guardduty - uses ml to find threats
     - VPC spans across all availability zones and subnet spans only one AZ
