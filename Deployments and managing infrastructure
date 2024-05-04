@@ -1,6 +1,7 @@
 CloudFormation
  - takes a template and creates a suite of AWS services (IaC)
  - Cost can estimated through tags
+ - right order and exact configuration*****
  - generates Diagrams
  - stacks 
 
@@ -21,6 +22,7 @@ CodeDeploy
 
 CodeCommit (aka similar to GitHub)
  - uses Git repositories
+ 
 
 CodeBuild
  - build package like Maven - compiles code, run tests etc
@@ -54,6 +56,6 @@ SSM Session Manager
  - user - > IAM permissions - > Session Manager - > EC2 instance
 
  SSM param store
-  - store secrets keysdaksfj
+  - store secrets keys
 
 

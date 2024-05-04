@@ -73,7 +73,7 @@ Dashboard
 Timseries Data
  - Amazon Timestream
 
- QLDB (Quantum Ledger)
+ Amazon QLDB (Quantum Ledger)
   - financial transactions
   - history of all changes made to the application over time
   - Immutable
@@ -82,7 +82,7 @@ Timseries Data
 Amazon Managed Blockchain
  - decentralization
  - Hyperledger
-  - etherium
+  - etherium  
 
 AWS Glue (similar to Informatica)
  - ETL

@@ -5,7 +5,7 @@
 -user can have multiple policies attached
     - via group
     - directly
-    -via another group
+    -via another groupo
 #### password policies
 -same as infy
 -MFA = pwd  + deivce of your own 

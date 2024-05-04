@@ -17,6 +17,8 @@ AWS Lambda - Virtual functions - Serverless  - Pay per request and compute time
   -defined as Docker images and run on ECS
 
 LightSail
- -no cloud experience
+ - simpler alternative to using Ec2, RDS, ELB 
+ - no cloud experience
  - deploy websites
  - get started quickly
+ - cannot autoscale

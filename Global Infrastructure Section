@@ -28,7 +28,7 @@ AWS Global accelerator
  - Leverges the aws `g`lobal network to optimize route to your application
  - 2 static anycast IP are created for your application
 
-AWS Outposts
+AWS Outposts (server racks)
  - set up outposts racks on-premise , so that we can leverage AWS services on-premise
  - responsible for physical security
  
