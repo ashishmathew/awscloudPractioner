@@ -54,6 +54,9 @@ Pricing models of the cloud
   - Pay less by using more 
   - pay less as AWS grows
 
+*******5/6******* start from here
+
+
   Free - 
   - IAM
   - VPC
@@ -91,6 +94,7 @@ Pricing models of the cloud
 - Compute optimizer
  - reduce cost and improve performance by recommending AWS sources
  - uses Machine learning and their utilization of cloudwatch metrics
+ - Helps choose optimal configurations
 
 Billing and costing tools
  - AWS pricing calculator
