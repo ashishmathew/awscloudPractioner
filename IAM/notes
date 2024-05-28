@@ -18,7 +18,7 @@
  - Hardware Key fob for AWS GovCloud (US) - provided by SurepassID
 ####access to AWS
 --AWS Management console
---AWS Commend Line interface
+--AWS Command Line interface
 --AWS software devlopment kit - via code
 
 ###tools

@@ -36,3 +36,32 @@ Practice test 2
     - Elastic beanstalk - upload code and rest is handled by beanstalk - provisioning resources etc. user has access to underlying resources
 
 
+Practice test 3
+AWS trusted advisor - 6 ? ???CPSFSO
+What is Amazon comprehend vs kendra? NLP vs doc search and insights 
+Cloud foundations - guided path to provision resources
+High availability - Dynamo DB, EFS
+Instance store - also used for caching
+Block level storage - EBS, Instace store
+
+Practice test 4
+What data does S3 store ?  object storage - key value, flat non hierarchical structure
+Trusted advisor barks when - public access to S3, not turning on user activity logging(cloudtrail), 
+    not using MFA on root account
+you can access EFA from on premise systems
+Advanced shield provides secutity to - ec2, cloudfront, route 53, ELB, AWS Global accelerator
+
+Web application firewall (WAF)
+ - allow and deny requests, sql injection
+ AWS cloudwatch events - you can set alerts
+
+ RDS 
+  - read replicas and multi az deployments - you can use both for disaster recovery
+
+AWS global accelerator 
+ - static Ip address that acts as entrypoint
+ - good fit for non-http use cases
+
+Simple routing - single resource like a web server
+
+AWS trusted advisor - if any EBS vol is underutilized, it will let you know
